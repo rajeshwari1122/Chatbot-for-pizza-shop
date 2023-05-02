@@ -1,0 +1,187 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "<b>Here is our menu: We sell </b> <br>\n\na) Cheese Pizza <br>\nb) Veggie Pizza <br>\nc) Pepperoni Pizza <br>\nd) Meat Pizza <br>\ne) Margherita Pizza <br>\nf). BBQ Chicken Pizza",
+        "<b>Here is our menu: We have </b> <br>\n\na) Cheese Pizza <br>\nb) Veggie Pizza <br>\nc) Pepperoni Pizza <br>\nd) Meat Pizza <br>\ne) Margherita Pizza <br>\nf). BBQ Chicken Pizza"
+      ]
+    },
+	{
+      "tag": "price",
+      "patterns": [
+        "what is the price of it?",
+        "what is the price?",
+        "Price?",
+        "Price of it?"
+      ],
+      "responses": [
+        "Here is our menu: <br>\n\na) Cheese Pizza -250 <br>\nb) Veggie Pizza -260 <br>\nc) Pepperoni Pizza -390 <br>\nd) Meat Pizza -360 <br>\ne) Margherita Pizza -390 <br>\nf). BBQ Chicken Pizza -450"
+        
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+		"Can I pay with Paytm?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Please Enter Your Pincode or Location to know"
+      ]
+    },
+	{
+      "tag": "pincode",
+      "patterns": [
+        "400043",
+        "400072",
+        "Mumbai"
+      ],
+      "responses": [
+        "Delivery takes 1-2 hours",
+        "Shipping takes 30 mins"
+      ]
+    },
+	{
+      "tag": "pc",
+      "patterns": [
+        "410208",
+		"Navi Mumbai",
+        "410206"
+      ],
+      "responses": [
+        "Delivery takes 2-4 hours",
+        "Shipping takes 1 hour"
+      ]
+    },
+	{
+      "tag": "message",
+      "patterns": [
+        "How to place an order?",
+		"Can I place an order?"
+      ],
+      "responses": [
+        "Yes!! Please enter your order"
+        ]
+    },
+	{
+      "tag": "pizzacrust",
+      "patterns": ["Crispy thin <br> Pan Pizza Crust <br> Chicago-Style Deep Dish Crust <br> Sicilian Crust <br> St. Louis Crust"],
+      "responses": [
+        "Pepperoni <br> Mushroom <br> Extra cheese <br> Onion <br> Black olives <br> <b>Please Select Toppings</b>"
+      ]
+    },
+	{
+      "tag": "pizzatoppings",
+      "patterns": ["Pepperoni <br> Mushroom <br> Extra cheese <br> Onion <br> Black olives"],
+      "responses": [
+        "Thank You!! for placing an order <br> Please Enter Your Mobile Number for confirmation"
+      ]
+    },
+	{
+      "tag": "order",
+      "patterns": ["One"],
+      "responses": [
+        "Crispy thin <br> Pan Pizza Crust <br> Chicago-Style Deep Dish Crust <br> Sicilian Crust <br> St. Louis Crust <br> <b>Please Select Crust</b>"
+      ]
+    },
+	{
+      "tag": "mb",
+      "patterns": ["9","8","7","6","5","4","3","2","1","0","1"],
+      "responses": [
+        "Your Order has confirmed Order detail along with Total price has been sent to your mobile number"
+      ]
+    },
+	{
+      "tag": "noanswer",
+      "patterns": ["I want"],
+      "responses": [
+        "Sorry!!We don't provide this."
+      ]
+    },
+	{
+      "tag": "tablebooking",
+      "patterns": ["Book a table"],
+      "responses": [
+        "On what time could you like to book??"
+      ]
+    },
+	{
+      "tag": "time",
+      "patterns": ["1-2pm","3-4pm","9-10am"],
+      "responses": [
+        "Thank You!!! Your table has been booked"
+      ]
+    },
+	{
+      "tag": "notavailable",
+      "patterns": ["10-11pm","5-6am","1-2am"],
+      "responses": [
+        "Service is currently unavialble <br> Table booking time starts from 9 am"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
